@@ -1,3 +1,15 @@
+# 1 ROPS Booster Club
+## Purpose
+## User Stories
+## Learning Tool
+1. npx create-react-app (app name)
+2. Install router so you can enhance the navigation abilities of your app: npm install react-router-dom
+3. Install all of your testing framework: npm install --save-dev cypress @testing-library/cypress @testing-library/react @testing-library/user-event @testing-library/dom cypress-jest-adapter
+    * npx cypress open will populate a cypress folder with tests and configuration files.
+    * make sure you add the following to cypress/support/index.js: import 'cypress-jest-adapter';
+    * make sure you add the following to cypress/support/commands.js: import '@testing-library/cypress/add-commands';
+4. For styling install the following: npm install @material-ui/core @material-ui/icons create-react-class
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,15 +80,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-# 1 ROPS Booster Club
-## Purpose
-## User Stories
-## Learning Tool
-1. npx create-react-app (app name)
-2. npm install react-router-dom
-3. npm install --save-dev cypress @testing-library/cypress @testing-library/react @testing-library/user-event cypress-jest-adapter
-    * npx cypress open will populate a cypress folder with tests and configuration files.
-    * make sure you add the following to cypress/support/index.js: import 'cypress-jest-adapter';
-    * make sure you add the following to cypress/support/commands.js: import '@testing-library/cypress/add-commands';
